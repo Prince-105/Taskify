@@ -4,12 +4,16 @@
 # 📋 Taskify - Task Management Application
 
 ## 🚀 Overview
+
 **Taskify** is a simple and interactive task management application built using **HTML, CSS, and JavaScript**. It helps users organize and track their daily tasks efficiently by categorizing them into different stages of completion.
+
 The application provides an intuitive drag-and-drop interface, task scheduling, a built-in stopwatch, and a notes section to improve productivity. All user data is stored locally using the browser's **Local Storage**, ensuring persistence without requiring a backend or database.
 
 ## ✨ Features
+
 * 📝 Create and manage daily tasks
 * 📂 Organize tasks into four sections:
+
   * 📌 Tasks
   * ✅ To Do
   * ⚙️ On Process
@@ -23,6 +27,7 @@ The application provides an intuitive drag-and-drop interface, task scheduling, 
 * 📱 Responsive and user-friendly interface
 
 ## 🛠️ Technologies Used
+
 * HTML5
 * CSS3
 * JavaScript (ES6)
@@ -30,25 +35,31 @@ The application provides an intuitive drag-and-drop interface, task scheduling, 
 * Drag and Drop API
 
 ## 📂 Project Structure
+
+```
 Taskify/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-│── images/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images/
 └── README.md
+```
 
 ## 🎯 How It Works
+
 1. Add a new task in the **Tasks** section.
-2. Set optional **Start Date** and **End Date**.
-3. Move tasks through different stages using **Drag & Drop**.
-4. Delete a task by dragging it upward.
-5. Use the **Stopwatch** to monitor work sessions.
-6. Save important information in the **Notes** section.
-7. All data is automatically stored in the browser using **Local Storage**.
+2. Assign optional **Start Date** and **End Date**.
+3. Move tasks between sections using **Drag & Drop**.
+4. Delete tasks by dragging them upward.
+5. Use the **Stopwatch** to track work sessions.
+6. Store reminders and ideas in the **Notes** section.
+7. All task data is automatically saved using **Local Storage**.
 
 ## 💡 Learning Outcomes
+
 This project helped strengthen my understanding of:
+
 * JavaScript DOM Manipulation
 * Event Handling
 * Drag and Drop API
@@ -58,6 +69,7 @@ This project helped strengthen my understanding of:
 * Frontend Application Development
 
 ## 🔮 Future Enhancements
+
 * User Authentication
 * Cloud Database Integration
 * Dark Mode
@@ -65,5 +77,12 @@ This project helped strengthen my understanding of:
 * Notifications & Reminders
 * Search and Filter Tasks
 * Export & Import Tasks
-* Mobile App Version
+* Mobile App Support
+
+## 👨‍💻 Author
+
+**Prince**
+
+⭐ If you found this project useful, consider giving this repository a **Star** on GitHub!
+
 
