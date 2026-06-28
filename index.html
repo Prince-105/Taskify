@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taskify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="deleteZone">🗑 Drop here to delete</div>
+<div class="container-fluid ">
+  <div class="row">
+
+    <!-- LEFT: BOARD -->
+    <div class="col-lg-8 col-md-12">
+      
+      <div class="board">
+         
+        <div class="column">
+          <h4>Tasks</h4>
+          <div class="task-list"></div>
+          <div class="add-box" onclick="quickAddTask(this.closest('.column'))">+ Add Task</div>
+          </div>
+
+          <div class="column">
+          <h4>To Do</h4>
+          <div class="task-list"></div>
+        </div>
+
+        <div class="column">
+          <h4>On-Process</h4>
+          <div class="task-list"></div>
+        </div>
+
+        <div class="column">
+          <h4>Completed</h4>
+          <div class="task-list"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- RIGHT: FIXED DETAILS PANEL -->
+    <div class="col-md-4">
+      <div class="details-panel">
+
+        <h5 id="taskTitle">Select a Task</h5>
+
+        <label>Start Date</label>
+        <input type="date" id="startDate" class="form-control mb-3">
+
+        <label>Deadline</label>
+        <input type="date" id="deadline" class="form-control mb-3">
+
+        <!-- Stopwatch -->
+        <div>
+          <h5>StopWatch</h5>
+          <div class="cent">
+          <span id="timerDisplay">00:00:00</span><br></div>
+          <div class="cent1">
+          <button onclick="startTimer()" class="btn btn-success btn-2">Start</button>
+          <button onclick="stopTimer()" class="btn btn-danger btn-2">Stop</button>
+          <button onclick="resetTimer()" class="btn btn-warning btn-2"  >Reset</button>
+          </div></div>
+
+        <h5>Notes</h5>
+        <textarea id="notes" class="form-control" rows="22"></textarea>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
