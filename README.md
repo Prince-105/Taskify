@@ -4,16 +4,12 @@
 # 📋 Taskify - Task Management Application
 
 ## 🚀 Overview
-
 **Taskify** is a simple and interactive task management application built using **HTML, CSS, and JavaScript**. It helps users organize and track their daily tasks efficiently by categorizing them into different stages of completion.
-
 The application provides an intuitive drag-and-drop interface, task scheduling, a built-in stopwatch, and a notes section to improve productivity. All user data is stored locally using the browser's **Local Storage**, ensuring persistence without requiring a backend or database.
 
 ## ✨ Features
-
 * 📝 Create and manage daily tasks
 * 📂 Organize tasks into four sections:
-
   * 📌 Tasks
   * ✅ To Do
   * ⚙️ On Process
@@ -27,16 +23,13 @@ The application provides an intuitive drag-and-drop interface, task scheduling, 
 * 📱 Responsive and user-friendly interface
 
 ## 🛠️ Technologies Used
-
 * HTML5
 * CSS3
 * JavaScript (ES6)
 * Local Storage API
 * Drag and Drop API
 
-
 ## 📂 Project Structure
-
 Taskify/
 │── index.html
 │── style.css
@@ -46,7 +39,6 @@ Taskify/
 └── README.md
 
 ## 🎯 How It Works
-
 1. Add a new task in the **Tasks** section.
 2. Set optional **Start Date** and **End Date**.
 3. Move tasks through different stages using **Drag & Drop**.
@@ -56,9 +48,7 @@ Taskify/
 7. All data is automatically stored in the browser using **Local Storage**.
 
 ## 💡 Learning Outcomes
-
 This project helped strengthen my understanding of:
-
 * JavaScript DOM Manipulation
 * Event Handling
 * Drag and Drop API
@@ -68,7 +58,6 @@ This project helped strengthen my understanding of:
 * Frontend Application Development
 
 ## 🔮 Future Enhancements
-
 * User Authentication
 * Cloud Database Integration
 * Dark Mode
@@ -78,5 +67,3 @@ This project helped strengthen my understanding of:
 * Export & Import Tasks
 * Mobile App Version
 
-
-If you found this project helpful, feel free to ⭐ this repository and share your feedback!
